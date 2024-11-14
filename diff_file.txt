@@ -1,0 +1,23 @@
+diff --git a/Program.cs b/Program.cs
+index 131a3cb..9442770 100644
+--- a/Program.cs
++++ b/Program.cs
+@@ -32,7 +32,7 @@ namespace timp
+             }
+             else if (x - y > 0)
+             {
+-                return Math.Tan(Math.Pow(x, 2) + y);
++                return Math.Sin(Math.Pow(x, 2) + y);
+             }
+             else
+             {
+diff --git a/README.txt b/README.txt
+index 4b1cc1c..93527cf 100644
+--- a/README.txt
++++ b/README.txt
+@@ -1,2 +1,2 @@
+ что-то напишу для правки
+-здесь еще что-то для правки
+\ No newline at end of file
++здесь еще что-то для правки ну так для прикола
+\ No newline at end of file
