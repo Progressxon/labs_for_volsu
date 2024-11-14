@@ -71,7 +71,7 @@ namespace MilitaryApp
             }
             else
             {
-                MessageBox.Show("Пожалуйста, выберите военнослужащего", "Ошибка");
+                MessageBox.Show("Пожалуйста, выберите военного", "Ошибка");
             }
         }
 
@@ -80,7 +80,7 @@ namespace MilitaryApp
             StringBuilder sb = new StringBuilder();
             foreach (var unit in MilitaryUnits)
             {
-                sb.AppendLine($"Название: {unit.Название}, Субъект РФ: {unit.СубъектРФ}");
+                sb.AppendLine($"Название: {unit.Название}, Субъект: {unit.СубъектРФ}");
             }
 
             MessageBox.Show(sb.ToString(), "Список военных частей");
