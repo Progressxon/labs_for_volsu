@@ -36,7 +36,7 @@ namespace timp
             }
             else
             {
-                return Math.Pow(Math.Sin(x), 2) + Math.Cos(y * y);
+                return Math.Pow(Math.Sin(x), 2) + Math.Cos(x * y);
             }
         }
         public static void vivod(double[] a1)
