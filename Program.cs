@@ -26,9 +26,9 @@ namespace timp
         }
         public static double fynk(double x, double y)
         {
-            if (x - y == 0)
+            if (x + y == 0)
             {
-                return Math.Sin(Math.Pow(x, 2)) + Math.Cos(y);
+                return Math.Cos(Math.Pow(x, 2)) + Math.Cos(y);
             }
             else if (x - y > 0)
             {
